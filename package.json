@@ -66,6 +66,7 @@
     "lodash": "^4.17.15",
     "promise-worker": "^1.1.1",
     "prop-types": "15.6.0",
+    "pusher-js": "^5.0.3",
     "querystring-browser": "^1.0.4",
     "react": "^15.6.2",
     "react-ace": "^4.1.6",

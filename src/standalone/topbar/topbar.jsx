@@ -376,6 +376,10 @@ export default class Topbar extends React.Component {
               { this.state.clients
                   .map((cli, i) => <li key={i}><button type="button" onClick={this.downloadGeneratedFile.bind(null, "client", cli)}>{cli}</button></li>) }
             </DropdownMenu> : null }
+            <DropdownMenu {...makeMenuOptions("Async")}>
+              <li><button type="button" onClick={() => topbarActions.showModal("pusher")}>Pusher</button></li>
+            </DropdownMenu>
+
           </div>
         </div>
       </div>
